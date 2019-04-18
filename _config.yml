@@ -9,12 +9,11 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
+  - scope:
+      path: '' # an empty string here means all files in the project
+      type: 'posts'
     values:
-      layout: "post"
+      layout: 'post'
 
 projects:
   sort_by: pushed
@@ -27,12 +26,12 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+  social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
-  # instagram: your_username
+  instagram: dan.in.world
   # keybase: your_username
   # linkedin: your_username
   # medium: your_username
